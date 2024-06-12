@@ -1,6 +1,6 @@
 export class CreateTodoDto {
-    name: string;
+    email: string;
+    taskName: string;
     done: boolean;
-    created_at: string;
-    done_at: string;
+    date: string;
 }
